@@ -1,0 +1,56 @@
+/* Importa uma fonte customizada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&display=swap');
+
+/* Altera o estilo do corpo da página HTML */
+body {
+    /* Altera a cor de fundo */
+    background-color: pink;
+}
+
+/* Altera o estilo do título (elemento HTML "h1") */
+h1 {
+    /* Usa a fonte importada do Google Fonts */
+    font-family: "Bitcount Single Ink";
+    /* Altera a cor da fonte */
+    color: black;
+}
+
+/* Altera o estilo do cartão (caixa de texto e botão de adicionar tarefa) */
+.card {
+    background-color: #fde;
+}
+
+/* Altera o estilo da caixa de texto "Adicionar nova tarefa" */
+input[type="text"] {
+    background-color: #ffe2f1;
+    border: 1px solid pink;
+}
+
+/* Altera o estilo do botão "Adicionar" nova tarefa */
+#btn-nova-tarefa {
+    background-color: pink;
+    color: white;
+    border: 1px solid pink;
+}
+
+/* Altera o estilo do botão "Adicionar" nova tarefa ao passar o mouse sob ele */
+#btn-nova-tarefa:hover {
+    background-color: white;
+    color: pink;
+}
+
+/* Altera o estilo das tarefas adicionadas */
+.list-group-item {
+    background-color: #ffe2f1;
+    border: 1px solid pink;
+}
+
+/* Altera o estilo do botão de Concluir */
+.btn-success {
+    background-color: blue;
+}
+
+/* Altera o estilo do botão de Excluir */
+.btn-danger {
+    background-color: white;
+}

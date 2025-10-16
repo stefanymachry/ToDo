@@ -10,6 +10,9 @@ const btn_nova_tarefa = document.querySelector("#btn-nova-tarefa");
 // Procura pelo elemento com o ID "lista-tarefas" no documento HTML
 const lista_tarefas = document.querySelector("#lista-tarefas");
 
+// Carrega o áudio reproduzido ao Concluir uma tarefa
+const audioConcluir = new Audio('sound/gmae.wav');
+
 // ----------------------------------------------------------------------
 // 2. FUNÇÕES DE LÓGICA
 // ----------------------------------------------------------------------
@@ -62,8 +65,13 @@ function adicionarTarefaEnter(evento) {
 }
 
 function concluirTarefa(elemento) {
-    const audio = new Audio('sound/gmae.wav');
-    audio.play();
+    // Reproduz o áudio ao clicar no botão de "Concluir"
+    audioConcluir.play();
+    
+    // Joga 50 confettis na tela
+    for (let i = 0; i <= 50; i++) {
+        confetti();
+    }
 }
 
 // ----------------------------------------------------------------------
