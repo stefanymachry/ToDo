@@ -26,6 +26,17 @@ input[type="text"] {
     border: 1px solid pink;
 }
 
+/* Altera o estilo do texto "Adicionar nova tarefa" na caixa de texto de adicionar tarefas */
+input[type="text"]::placeholder {
+    color: #59555C;
+}
+
+/* Altera o estilo da caixa de texto "Adicionar nova tarefa" ao clicar nela */
+input[type="text"]:focus {
+    background-color: black;
+    color: white;
+}
+
 /* Altera o estilo do botão "Adicionar" nova tarefa */
 #btn-nova-tarefa {
     background-color: pink;
