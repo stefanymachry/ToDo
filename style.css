@@ -1,18 +1,18 @@
 /* Importa uma fonte customizada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
 /* Altera o estilo do corpo da página HTML */
 body {
     /* Altera a cor de fundo */
-    background-color: pink;
+    background-color: rgb(253, 234, 237);
 }
 
 /* Altera o estilo do título (elemento HTML "h1") */
-h1 {
+h1.titulo{
     /* Usa a fonte importada do Google Fonts */
-    font-family: "Bitcount Single Ink";
+    font-family: "Pinyon Script", cursive;
     /* Altera a cor da fonte */
-    color: black;
+    color:rgb(255, 138, 157);
 }
 
 /* Altera o estilo do cartão (caixa de texto e botão de adicionar tarefa) */
@@ -33,11 +33,11 @@ input[type="text"]::placeholder {
 
 /* Altera o estilo da caixa de texto "Adicionar nova tarefa" ao clicar nela */
 input[type="text"]:focus {
-    background-color: black;
-    color: white;
+    background-color: rgb(253, 209, 216);
+    color: #59555C ;
     /* Altera a cor da borda externa ao selecionar o campo */
-    border-color: rgba(126, 239, 104, 0.8);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    border-color: rgb(255, 118, 141);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px  rgb(253, 209, 216);
     outline: 0 none;
 }
 
@@ -57,17 +57,17 @@ input[type="text"]:focus {
 /* Altera o estilo das tarefas adicionadas */
 .list-group-item {
     /* Altera a cor das tarefas */
-    color: white;
-    background-color: #ffe2f1;
+    color:#59555C ;
+    background-color: rgb(253, 209, 216) ;
     border: 1px solid pink;
 }
 
 /* Altera o estilo do botão de Concluir */
-.btn-success {
-    background-color: blue;
+.btn-concluir {
+    background-color:rgb(89, 170, 109);
 }
 
 /* Altera o estilo do botão de Excluir */
-.btn-danger {
-    background-color: white;
+.btn-excluir {
+  /*  background-color:rgb(255, 68, 68); */
 }
